@@ -166,7 +166,7 @@ def load_bert_model():
     The function `load_bert_model` loads a BERT model from a specified file path.
     :return: The function `load_bert_model` returns the loaded BERT model.
     """
-    model_path = os.path.join(script_dir, 'models', 'bert_model.h5')
+    model_path = os.path.join(script_dir, 'bert_model.h5')
     loaded_model = tf.keras.models.load_model(model_path, custom_objects=custom_objects_scope())
     return loaded_model
 
@@ -221,7 +221,7 @@ def add_to_output_directory(pdf_name,output):
     :return: nothing if the destination path already exists as a file.
     """
 
-    output_dir = os.path.join(script_dir,'prediction', output)
+    output_dir = os.path.join(script_dir, output)
     all_output_directories.append(output_dir)
     destination_path = os.path.join(output_dir, pdf_name)
     item_path = os.path.join(directory_path, pdf_name)
