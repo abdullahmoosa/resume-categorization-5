@@ -7,7 +7,7 @@
   4. **PLEASE download the model** : https://mega.nz/file/Eq0jATbJ#LEmoVJzASIgJ_T88UjRAO9q9H1QK7DzxhPYYYwkWtWA
   5. Put the model in the same directory as scripts.py
   6. I was not able to upload the model due to its huge size.
-  7. Run script.py from the command line as intended : python script.py directory
+  7. Run script.py from the command line as intended : python script.py "directory". Make sure you are in the same directory as script.py
   8. resume-categorization (2).ipynb contains the model training and documentation guide.
 
 
