@@ -10,6 +10,16 @@
   7. Run script.py from the command line as intended : python script.py "directory". Make sure you are in the same directory as script.py
   8. resume-categorization (2).ipynb contains the model training and documentation guide.
 
+#### Creating Virtual Environment:
+Go to the directory you want to clone the repo. 
+Open command line on that directory.
+
+  ``` command-line
+pip install venv
+python -m venv "name of virtual environment"
+git clone https://github.com/abdullahmoosa/resume-categorization-final.git
+pip install -r requirements.txt
+```
 
 ### Important Findings:
   1. BERT performs the best.
