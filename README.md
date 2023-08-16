@@ -1,6 +1,8 @@
 # Resume Categorization
 
-### Steps:
+This is a script which can categorize resumes into 24 different classes. The containing classes are : HR, DESIGNER, INFORMATION-TECHNOLOGY, TEACHER, ADVOCATE, BUSINESS-DEVELOPMENT, HEALTHCARE, FITNESS, AGRICULTURE, BPO, SALES, CONSULTANT, DIGITAL-MEDIA, AUTOMOBILE, CHEF, FINANCE, APPAREL, ENGINEERING, ACCOUNTANT, CONSTRUCTION, PUBLIC-RELATIONS, BANKING, ARTS, AVIATION.
+
+### Steps to Run:
   1. If possible create a virtual environment in python.
   2. Then inside the virtual environment clone the github repo.
   3. Use the requirement.txt to install the dependencies.
@@ -30,9 +32,18 @@ python script.py path_to_directory_containing_the_resume_pdfs
 
 Here replace 'path_to_directory_containing_the_resume_pdfs' with the actual directory containing the pdfs.
 
+### Model Creation and Steps: 
+  1. First preprocess the texts - remove punctuations, remove stopwords etc.
+  2. Tokenize the inputs.
+  3. Generate word vectors.
+  4. Train various models like - CNN,LSTM,BERT on the input data and evaluate the accuracy.
 
 ### Important Findings:
   1. BERT performs the best.
   2. The dataset is imbalanced. Therefore the accuracy is not good for some classes.
   3. **For further details please review "resume-categorization (2).ipynb" .**
-     
+
+**Correct Prediction of Model per class :**
+![download (2)](https://github.com/abdullahmoosa/resume-categorization-final/assets/67234038/b980e0d3-d960-46ca-9cd0-5dd4ae9e8731)
+
+
