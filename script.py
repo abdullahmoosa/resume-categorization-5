@@ -221,7 +221,7 @@ def add_to_output_directory(pdf_name,output):
     :return: nothing if the destination path already exists as a file.
     """
 
-    output_dir = os.path.join(script_dir, output)
+    output_dir = os.path.join(script_dir,'prediction', output)
     all_output_directories.append(output_dir)
     destination_path = os.path.join(output_dir, pdf_name)
     item_path = os.path.join(directory_path, pdf_name)
@@ -229,7 +229,7 @@ def add_to_output_directory(pdf_name,output):
         destination_path = os.path.join(output_dir, pdf_name)
         if os.path.isfile(destination_path):
             return
-        shutil.move(item_path, destination_path)
+        shutil.copy(item_path, destination_path)
     else:
         os.mkdir(output_dir)
         destination_path = os.path.join(output_dir, pdf_name)
@@ -263,6 +263,8 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Please enter relative directory correctly")
     else:
+        if not os.path.exists('prediction'):
+            os.mkdir('prediction')
         directory_path = sys.argv[1]
         all_pdfs, all_pdf_names = analyze_directory(directory_path)
         processed_resumes = process_and_extract_informations(all_pdfs)
