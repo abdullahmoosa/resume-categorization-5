@@ -18,8 +18,18 @@ Open command line on that directory.
 pip install venv
 python -m venv "name of virtual environment"
 git clone https://github.com/abdullahmoosa/resume-categorization-final.git
+cd resume-catogirization-final
 pip install -r requirements.txt
 ```
+
+#### Running the script:
+After installing requirement.txt. 
+```
+python script.py path_to_directory_containing_the_resume_pdfs
+```
+
+Here replace 'path_to_directory_containing_the_resume_pdfs' with the actual directory containing the pdfs.
+
 
 ### Important Findings:
   1. BERT performs the best.
