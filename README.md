@@ -8,7 +8,7 @@ The output will be saved into a different directory named "prediction" . Inside 
 
 **Dataset used :** https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
-**Example folder structure:**
+**Example output folder structure:**
 
 ```
 prediction/
