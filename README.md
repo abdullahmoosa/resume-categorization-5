@@ -1,6 +1,12 @@
 # Resume Categorization
 
-This is a script which can categorize resumes into 24 different classes. The containing classes are : HR, DESIGNER, INFORMATION-TECHNOLOGY, TEACHER, ADVOCATE, BUSINESS-DEVELOPMENT, HEALTHCARE, FITNESS, AGRICULTURE, BPO, SALES, CONSULTANT, DIGITAL-MEDIA, AUTOMOBILE, CHEF, FINANCE, APPAREL, ENGINEERING, ACCOUNTANT, CONSTRUCTION, PUBLIC-RELATIONS, BANKING, ARTS, AVIATION. The output will be saved into a different directory named "prediction" . Inside the "prediction" folder, the resumes will be categorized inside the cateogy of each resume.
+This is a script which can categorize resumes into 24 different classes. 
+
+The containing classes are : HR, DESIGNER, INFORMATION-TECHNOLOGY, TEACHER, ADVOCATE, BUSINESS-DEVELOPMENT, HEALTHCARE, FITNESS, AGRICULTURE, BPO, SALES, CONSULTANT, DIGITAL-MEDIA, AUTOMOBILE, CHEF, FINANCE, APPAREL, ENGINEERING, ACCOUNTANT, CONSTRUCTION, PUBLIC-RELATIONS, BANKING, ARTS, AVIATION. 
+
+The output will be saved into a different directory named "prediction" . Inside the "prediction" folder, the resumes will be categorized inside the cateogy of each resume.
+
+**Dataset used :** https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
 **Example folder structure:**
 
